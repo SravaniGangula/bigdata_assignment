@@ -15,13 +15,13 @@ mvn archetype:generate `
   -D interactiveMode=false
   ```
   Step 2: Change into word-count-beam
-  ```
+ ```
   cd .\word-count-beam
-     ```
+```
 Step 3: directory contains a pom.xml and a src directory with example pipelines.
-   ```
+ ```
    dir .\src\main\java\org\apache\beam\examples
-   ```
+```
  Step 4: Run wordcount using Maven
     ```
     mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount `
