@@ -23,10 +23,10 @@ Step 3: directory contains a pom.xml and a src directory with example pipelines.
    dir .\src\main\java\org\apache\beam\examples
 ```
  Step 4: Run wordcount using Maven
-    ```
-    mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount `
+ ```
+  mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount `
  -D exec.args="--inputFile=sample.txt --output=counts" -P direct-runner
-  ```
+ ```
      
      
      
