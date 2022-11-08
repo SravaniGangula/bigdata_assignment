@@ -3,6 +3,7 @@
 Set up development environment for JDK and Maven
 
 Step1 : Generate Maven example project
+```
 mvn archetype:generate `
   -D archetypeGroupId=org.apache.beam `
   -D archetypeArtifactId=beam-sdks-java-maven-archetypes-examples `
@@ -12,3 +13,5 @@ mvn archetype:generate `
   -D version="0.1" `
   -D package=org.apache.beam.examples `
   -D interactiveMode=false
+  ```
+  
